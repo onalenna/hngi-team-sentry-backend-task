@@ -34,7 +34,7 @@ class db_controller extends Controller
     //retrieve data from the database
     public function read(Request $request){
 
-    	$data=DB::select("select * from hng_sentry_page");
+    	$data=DB::select("select * from laravel");
     	//print the retrieved data
     	print_r($data->toArray());
 
