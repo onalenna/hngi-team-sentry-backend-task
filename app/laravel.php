@@ -6,5 +6,5 @@ use Illuminate\Database\Eloquent\Model;
 
 class laravel extends Model
 {
-    //
+    protected $table='laravel';
 }
