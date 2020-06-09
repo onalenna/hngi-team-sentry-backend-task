@@ -23,3 +23,5 @@ Route::put('set_page_markdown', 'PagesController@set_page_markdowm');
 Route::get('retrieve_page_html', 'PagesController@retrieve_page_html');
 
 Route::get('test', 'PagesController@test');
+
+Route::post('/', 'db_controller');
